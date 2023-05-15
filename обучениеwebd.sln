@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33529.398
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "обучениеwebd", "обучениеwebd\обучениеwebd.csproj", "{081BBF5D-64D9-4AE3-B526-9FA293EDADA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{081BBF5D-64D9-4AE3-B526-9FA293EDADA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081BBF5D-64D9-4AE3-B526-9FA293EDADA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081BBF5D-64D9-4AE3-B526-9FA293EDADA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081BBF5D-64D9-4AE3-B526-9FA293EDADA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DF4ED7D-75C2-4DDA-98F7-06646EE9420C}
+	EndGlobalSection
+EndGlobal
