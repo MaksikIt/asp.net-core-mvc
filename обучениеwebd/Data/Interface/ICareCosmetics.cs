@@ -7,7 +7,7 @@ namespace обучениеwebd.Data.Interface
 {
     interface ICareCosmetics
     {
-        IEnumerable<CareCosmetic> AllCareCosmetics { get; set; }
+        IEnumerable<CareCosmetic> AllCareCosmetics { get; }
         IEnumerable<CareCosmetic> FavouriteCareCosmetics { get; }
         CareCosmetic getCareCosmetic(int CareCosmeticId);
     }
