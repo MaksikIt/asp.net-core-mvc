@@ -11,10 +11,10 @@ namespace обучениеwebd.Data
         public string CosmeticName{ get; set; }
         public string  ShortDesc { get; set; }
         public string LongDesc { get; set; }
-        public int Img { get; set; } // url адрес картинки 
+        public string Img { get; set; } // url адрес картинки 
         public ushort Price { get; set; }
         public bool IsFavourite { get; set; } // если значение true то отображается в разделе лучшие товары
-        public int Available { get; set; } // сколько товара в наличии
+        public bool Available { get; set; } // в наличии ли товары
         public int CategoryId { get; set; }
         public virtual Category Cotegory { get; set; }
     }

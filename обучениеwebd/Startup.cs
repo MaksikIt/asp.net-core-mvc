@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using обучениеwebd.Data.Interface;
+using обучениеwebd.Data.Mocks;
 
 namespace обучениеwebd
 {
@@ -14,6 +16,8 @@ namespace обучениеwebd
 
         public void ConfigureServices(IServiceCollection services) // регистрация модулей и плагинов
         {
+            services.AddTransient<ICareCosmetics, MockCareCosmetic>(); //объединяем интерфейс и класс который реализует интерфейс
+            services.AddTransient<ICategory, MockCategory>(); //объединяем интерфейс и класс который реализует интерфейс
             services.AddMvc();
         }
 
