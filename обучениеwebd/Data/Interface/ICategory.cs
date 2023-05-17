@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace обучениеwebd.Data.Interface
 {
-    interface ICategory
+    public interface ICategory
     {
         IEnumerable<Category> AllCategory { get; }
     }

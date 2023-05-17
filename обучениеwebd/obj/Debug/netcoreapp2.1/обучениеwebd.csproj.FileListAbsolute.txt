@@ -9,3 +9,15 @@ C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\
 C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.AssemblyInfoInputs.cache
 C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.AssemblyInfo.cs
 C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.RazorTargetAssemblyInfo.cache
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\bin\Debug\netcoreapp2.1\обучениеwebd.pdb
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.dll
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.pdb
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\bin\Debug\netcoreapp2.1\обучениеwebd.Views.dll
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\bin\Debug\netcoreapp2.1\обучениеwebd.Views.pdb
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.TagHelpers.input.cache
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.TagHelpers.output.cache
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.RazorCoreGenerate.cache
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\Razor\Views\CareCosmetic\List.g.cshtml.cs
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.RazorTargetAssemblyInfo.cs
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.Views.pdb
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.csproj.CopyComplete

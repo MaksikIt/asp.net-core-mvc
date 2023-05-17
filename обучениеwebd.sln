@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.33529.398
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "обучениеwebd", "обучениеwebd\обучениеwebd.csproj", "{081BBF5D-64D9-4AE3-B526-9FA293EDADA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "обучениеwebd", "обучениеwebd\обучениеwebd.csproj", "{081BBF5D-64D9-4AE3-B526-9FA293EDADA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

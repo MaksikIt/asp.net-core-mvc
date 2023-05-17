@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace обучениеwebd.Data.Interface
 {
-    interface ICareCosmetics
+    public interface ICareCosmetics
     {
         IEnumerable<CareCosmetic> AllCareCosmetics { get; }
         IEnumerable<CareCosmetic> FavouriteCareCosmetics { get; }

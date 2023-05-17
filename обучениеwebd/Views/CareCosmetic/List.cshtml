@@ -1,0 +1,29 @@
+﻿@using обучениеwebd.Data
+@model IEnumerable<CareCosmetic>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+</head>
+<body>
+    <div>
+        @{ 
+            foreach (var cosmetic in Model)
+            {
+                <h2>
+                    name is - @cosmetic.CosmeticName.ToString()
+                </h2>
+                @*<p>
+                    category is - @cosmetics.Cotegory.ToString()
+                </p>*@
+             }
+         }
+    </div>
+</body>
+</html>
