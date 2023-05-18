@@ -19,7 +19,7 @@ namespace обучениеwebd.Controllers
 
         public ViewResult List()
         {
-            var cosmetics = _allCosmetics;
+            var cosmetics = _allCosmetics.AllCareCosmetics;
             return View(cosmetics);
         }
     }

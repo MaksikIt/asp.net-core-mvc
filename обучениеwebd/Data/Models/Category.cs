@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace обучениеwebd.Data
+namespace обучениеwebd.Data.Models
 {
     public class Category
     {

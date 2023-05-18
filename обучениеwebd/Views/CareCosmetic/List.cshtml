@@ -1,5 +1,5 @@
-﻿@using обучениеwebd.Data
-@model IEnumerable<CareCosmetic>
+﻿@using обучениеwebd.Data.Models
+@model List<CareCosmetic>
 @{
     Layout = null;
 }
@@ -13,16 +13,11 @@
 </head>
 <body>
     <div>
-        @{ 
-            foreach (var cosmetic in Model)
+        @{foreach (var cosmetic in Model)
             {
-                <h2>
-                    name is - @cosmetic.CosmeticName.ToString()
-                </h2>
-                @*<p>
-                    category is - @cosmetics.Cotegory.ToString()
-                </p>*@
-             }
+                <h2>@cosmetic.CosmeticName</h2>   
+                <p>Категория - @cosmetic.Cotegory</p>
+            }
          }
     </div>
 </body>
