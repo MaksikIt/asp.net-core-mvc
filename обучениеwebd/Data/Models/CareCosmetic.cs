@@ -16,6 +16,7 @@ namespace обучениеwebd.Data.Models
         public bool IsFavourite { get; set; } // если значение true то отображается в разделе лучшие товары
         public bool Available { get; set; } // в наличии ли товары
         public int CategoryId { get; set; }
-        public virtual Category Cotegory { get; set; }
+        //public virtual Category Cotegory { get; set; }
+        public string Category { get; set; }
     }
 }

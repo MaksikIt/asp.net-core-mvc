@@ -8,6 +8,6 @@ namespace обучениеwebd.Data.Interface
 {
     public interface ICategory
     {
-        IEnumerable<Category> AllCategory { get; }
+        List<Category> AllCategory { get; }
     }
 }
