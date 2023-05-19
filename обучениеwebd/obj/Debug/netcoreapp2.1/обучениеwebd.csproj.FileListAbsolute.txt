@@ -21,3 +21,6 @@ C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\
 C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.RazorTargetAssemblyInfo.cs
 C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.Views.pdb
 C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\обучениеwebd.csproj.CopyComplete
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\maksi\source\repos\обучениеwebd\обучениеwebd\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs

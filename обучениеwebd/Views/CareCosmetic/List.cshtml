@@ -1,24 +1,13 @@
-﻿@using обучениеwebd.Data.Models
-@model List<CareCosmetic>
-@{
-    Layout = null;
-}
+﻿@*@using обучениеwebd.ViewModels
+@model CosmeticsListViewModel*@
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>List</title>
-</head>
-<body>
-    <div>
-        @{foreach (var cosmetic in Model)
-            {
-                <h2>@cosmetic.CosmeticName</h2>   
-                <p>Категория -</p><p> @cosmetic.Category</p>
-            }
-         }
-    </div>
-</body>
-</html>
+<div>
+    @{foreach (var cosmetic in Model.AllCareCosmetics)
+        {
+            <h2>@cosmetic.CosmeticName</h2>   
+            <p>Категория: @cosmetic.Category</p>
+        }
+        }
+</div>
+

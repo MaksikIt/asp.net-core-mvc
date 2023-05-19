@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using обучениеwebd.Data.Interface;
+using обучениеwebd.ViewModels;
 
 namespace обучениеwebd.Controllers
 {
@@ -19,8 +20,9 @@ namespace обучениеwebd.Controllers
 
         public ViewResult List()
         {
-            var cosmetics = _allCosmetics.AllCareCosmetics;
-            return View(cosmetics);
+            CosmeticsListViewModel obj = new CosmeticsListViewModel();
+            obj.AllCareCosmetics = _allCosmetics.AllCareCosmetics;
+            return View(obj);
         }
     }
 }
