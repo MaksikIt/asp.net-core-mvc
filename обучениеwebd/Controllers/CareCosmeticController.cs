@@ -28,7 +28,10 @@ namespace обучениеwebd.Controllers
 
         public ViewResult CategoryHeir()
         {
-            return View();
+            CategoryHeirViewModel obj = new CategoryHeirViewModel();
+            obj.AllCategories = _allCategory.AllCategory;
+            obj.AllCareCosmetics = _allCosmetics.AllCareCosmetics;
+            return View(obj);
         }
     }
 }
