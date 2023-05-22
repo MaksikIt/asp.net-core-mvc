@@ -1,0 +1,14 @@
+﻿body {
+    background-color: aqua;
+    margin-left: 15px;
+}
+header {
+    display: block;
+}
+.a_nav {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.h3_class {
+    text-align: center;
+}

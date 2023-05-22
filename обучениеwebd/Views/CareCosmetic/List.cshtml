@@ -3,10 +3,12 @@
 
 
 <div>
+    
     @{foreach (var cosmetic in Model.AllCareCosmetics)
         {
             <h2>@cosmetic.CosmeticName</h2>   
             <p>Категория: @cosmetic.Category</p>
+            <p><img class="img-thumbnail" scr="@cosmetic.Img"></p>
         }
         }
 </div>

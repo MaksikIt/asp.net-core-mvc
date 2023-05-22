@@ -20,9 +20,15 @@ namespace обучениеwebd.Controllers
 
         public ViewResult List()
         {
+            ViewBag.Title = "Уходовая косметика";
             CosmeticsListViewModel obj = new CosmeticsListViewModel();
             obj.AllCareCosmetics = _allCosmetics.AllCareCosmetics;
             return View(obj);
+        }
+
+        public ViewResult CategoryHeir()
+        {
+            return View();
         }
     }
 }
