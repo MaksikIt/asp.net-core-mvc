@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: aqua;
+    background-color: lavenderblush;
     margin-left: 15px;
 }
 header {
@@ -9,6 +9,15 @@ header {
     margin-left: 20px;
     margin-right: 20px;
 }
-.h3_class {
+.a_nav2 {
+    margin-left: 20px;
+}
+.h3-class {
     text-align: center;
+}
+.h2_margin {
+    text-align: center;
+}
+.div-title {
+    margin: auto;
 }
