@@ -33,5 +33,21 @@ namespace обучениеwebd.Controllers
             obj.AllCareCosmetics = _allCosmetics.AllCareCosmetics;
             return View(obj);
         }
+
+        public ViewResult CategoryHands()
+        {
+            CategoryHeirViewModel obj = new CategoryHeirViewModel();
+            obj.AllCategories = _allCategory.AllCategory;
+            obj.AllCareCosmetics = _allCosmetics.AllCareCosmetics;
+            return View(obj);
+        }
+
+        public ViewResult CategoryFace()
+        {
+            CategoryHeirViewModel obj = new CategoryHeirViewModel();
+            obj.AllCategories = _allCategory.AllCategory;
+            obj.AllCareCosmetics = _allCosmetics.AllCareCosmetics;
+            return View(obj);
+        }
     }
 }
